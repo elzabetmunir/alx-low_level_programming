@@ -1,1 +1,1 @@
-Static Library
+# static libraries
