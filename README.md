@@ -1,1 +1,2 @@
-READme for 0x01-variables_if_else_while
+# More of Malloc and Free
+<h3> You can allocate, free as well as exit </h3>
