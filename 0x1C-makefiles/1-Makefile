@@ -1,0 +1,21 @@
+# Makefile for School, version 0.1
+
+NAME = School
+
+CC = gcc
+#CFLAGS = -Wall -Werror -Wextra -pedantic
+OBJ = School.o main.o
+SRC = School.c main.c
+
+RM = rm -f
+
+all: $(SRC)
+	$(CC) $^ -o $(NAME)
+
+clean:
+	$(RM) $(NAME) $(TMPFILES)
+
+oclean:
+	$(RM) $(OBJ)
+
+fclean: clean oclean
